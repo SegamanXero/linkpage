@@ -52,6 +52,24 @@ p {
 	margin: auto;
 }
 
+p2 {
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	border-radius: 0px;
+	border: solid 0px;
+	background-color: rgba(0,0,0,0.75);
+	width:75%;
+	height: 100%;
+	padding: 10px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	jusify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
 a {
 	color: white;
 	Font-Size: 25px;
@@ -60,7 +78,7 @@ a {
 	border-radius: 0px;
 	border: solid 0px;
 	background-color: rgba(0,0,0,0.75);
-	width:80%;
+	width:75%;
 	height: 100%;
 	padding: 10px;
 	margin-left: auto;
@@ -75,7 +93,6 @@ a {
 a:hover {
   background-color: #0063A9;
 }
-
 
 /* Prototype mobile theme */
 
@@ -135,15 +152,33 @@ p {
 	margin: auto;
 }
 
-a {
-	color: white;
-	Font-Size: 15px;
+p2 {
+	font-size: 18px;
 	color: white;
 	text-align: center;
 	border-radius: 0px;
 	border: solid 0px;
 	background-color: rgba(0,0,0,0.75);
-	width:90%;
+	width:95%;
+	height: 100%;
+	padding: 10px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	jusify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+a {
+	color: white;
+	Font-Size: 18px;
+	color: white;
+	text-align: center;
+	border-radius: 0px;
+	border: solid 0px;
+	background-color: rgba(0,0,0,0.75);
+	width:95%;
 	height: 100%;
 	padding: 10px;
 	margin-left: auto;
