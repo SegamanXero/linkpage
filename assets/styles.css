@@ -1,7 +1,7 @@
 /* Styling for main body things */
 
 body {
-	background-color: black;
+	background-color: white;
 	background-image: url("qualitymark.png"), url("smsgraph.png");
 	background-attachment: fixed;
 	background-size: 20%, 1%;
@@ -19,22 +19,18 @@ img {
 }
 
 h1 {
-	Font-Size: 40px;
-	color: #0063A9;
+	Font-Size: 25px;
+	color: black;
 	text-align: center;
-	border-radius: 0px;
-	border: solid 0px;
-	background-color: rgba(0,0,0,0.75);
-	width:80%;
-	padding: 15px;
+	height: 100%;
+	padding: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	
 }
 
 h2 {
 	Font-Size: 25px;
-	color: black;
+	color: #0063A9;
 	text-align: center;
 	height: 100%;
 	padding: 10px;
@@ -94,9 +90,16 @@ a:hover {
   background-color: #0063A9;
 }
 
-/* Prototype mobile theme */
+/* Following hides a fix targeted to pad the bottom for Mobile Firefox */
+
+footer {
+	display: none;
+}
+
+/* Mobile browser theme */
 
 /* Styling for main body things */
+
 @media only screen and (max-width: 600px) {
 
 
@@ -108,8 +111,9 @@ body {
 	background-position: right bottom, left top;
 	background-repeat: no-repeat, repeat;
 	font-family: 'Segoe UI', Helvetica, 'OnePlus Sans', Arial, sans-serif;
-	Margin-top: 5px;
-	Margin-bottom: 5px;
+	Margin-top: 25px;
+	Margin-bottom: 25px;
+	padding-bottom: 50px;
 }
 
 img {
@@ -121,25 +125,21 @@ img {
 }
 
 h1 {
-	Font-Size: 32px;
-	color: #0063A9;
-	text-align: center;
-	border-radius: 0px;
-	border: solid 0px;
-	background-color: rgba(0,0,0,0.75);
-	width:95%;
-	padding: 15px;
-	margin-left: auto;
-	margin-right: auto;
-	
-}
-
-h2 {
 	Font-Size: 20px;
 	color: black;
 	text-align: center;
 	height: 100%;
 	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2 {
+	Font-Size: 20px;
+	color: #0063A9;
+	text-align: center;
+	height: 100%;
+	padding: 10px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -194,17 +194,16 @@ a:hover {
   background-color: #0063A9;
 }
 
+/* Following is a fix targeted to pad the bottom for Mobile Firefox */
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding: 35px;
+   color: black;
+   text-align: center;
+}
 
 }
-/* Sega seal of approval and quality */
-
-/* sealofquality {
-	background-image: url('qualitymark.png');
-	background-size: cover;
-	height: 400px;
-	width: 400px;
-	background-position: absolute;
-	bottom: 0;
-	right: 0;
-	z-index: -1;
-} */
